@@ -1,0 +1,19 @@
+[
+	// sublime 3
+	{ "keys": ["alt+left"], "command": "jump_back" },
+	{ "keys": ["alt+right"], "command": "jump_forward" },
+	{ "keys": ["alt+d"], "command": "goto_definition" },
+
+	// sublime 2
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+	{ "keys": ["ctrl+alt+j"], "command": "join_lines" },
+	{ "keys": ["ctrl+alt+down"], "command": "duplicate_line" },
+	{ "keys": ["ctrl+shift+s"], "command": "save_all" },
+	{ "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+	{ "keys": ["ctrl+shift+f4"], "command": "close_all" },
+	{ "keys": ["ctrl+shift+y"], "command": "lower_case" },
+	{ "keys": ["ctrl+shift+x"], "command": "upper_case" },
+	{ "keys": ["ctrl+alt+f"], "command": "reindent" },
+	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} }
+]
