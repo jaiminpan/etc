@@ -2,7 +2,7 @@
 syntax enable
 "set background=dark
 "let g:solarized_termcolors=256
-colorscheme solarized
+"colorscheme solarized
 "colorscheme=evening
 "colorscheme=desert
 
@@ -26,7 +26,7 @@ set incsearch
 set hlsearch
 set fileencodings=uft-8,gbk
 "set helplang=cn
-set foldmethod=syntax "zo zc zr zm zj zk
+"set foldmethod=syntax "zo zc zr zm zj zk
 "}
 
 "conf for tabs
